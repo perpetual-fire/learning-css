@@ -1,1 +1,31 @@
+/* below is the usage example of a UNIVERSAL SELECTOR, this applies to all the elements */
+*{
+    background-color: grey;
+}
 
+/* below is the example of ELEMENT SELECTOR, it applies to all elements having the mentioned tag */
+div{
+    background-color: red;
+}
+
+/* id in html is unique identifier for that particular html page */
+/* below is the example of ID SELECTOR, that applies the style to element with the specified ID */
+#md1-div-1 {
+    background-color: aqua;
+}
+/* below is the example in which one can reference an element which is just immediate child of element whose id is specified */
+#md1 > div{
+    background-color: yellow;
+}
+/*if u skip the operator then the style will be applied to all the mentioned tags within the element whose id is specified*/
+
+/* class in html is used to group similar elements */
+/* below is the example of CLASS SELECTOR, it applies to all elements having the specified class */
+.main-div-3{
+    background-color: red;
+}
+/* below is the example in which one can reference an element which is just immediate child of element whose class is specified */
+.main-div-2 > div{
+    background-color: teal;
+}
+/*if u skip the operator then the style will be applied to all the mentioned tags within the element whose class name is specified*/
