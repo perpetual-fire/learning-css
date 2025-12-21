@@ -1,11 +1,15 @@
+/*below is the example of element selector*/
 section {
     background: rebeccapurple;
 }
-
+/*below is the example og id selector*/
 #main\.section\.1{
     background:green
 }
-
 #main\.section\.2{
     background: yellow;
+}
+/*below is the example of class selector*/
+.h1\.class{
+    font-family: "BBH Bogle", sans-serif;
 }
