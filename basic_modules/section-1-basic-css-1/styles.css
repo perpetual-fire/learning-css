@@ -1,6 +1,6 @@
 /* below is the usage example of a UNIVERSAL SELECTOR, this applies to all the elements */
 *{
-    background-color: grey;
+    background-color: black;
 }
 
 /* below is the example of ELEMENT SELECTOR, it applies to all elements having the mentioned tag */
